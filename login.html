@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Travel Agency</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/login.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body >
+    <header>
+        <div class="header-container">
+            <img src="assets/images/logo.png" class="logo" alt="Travel Agency Logo">
+        </div>
+        <h2>BLUESKY </h2>
+        <h3>The World, Our Adventure</h3>
+      </header>
+
+    <main>
+       
+        <div class="container" id="container">
+            <div class="form-container sign-in-container">
+                <form action="#">
+                    <h1>Login</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" class="social"><i class="fab fa-google"></i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                    <span>or use your email</span>
+                    <input type="email" placeholder="Email Address" />
+                    <input type="password" placeholder="Password" />
+                    <a href="#">Forgot your password?</a>
+                    <button>Login</button>
+                    <p>Don't have an account? <a href="registration.html">Register here</a>.</p> <!-- Link to registration page -->
+                </form>
+            </div>
+            <div class="overlay-container" style="background-image: url(assets/images/photo.jpg)">
+                <div class="overlay" >
+                    <div class="overlay-panel overlay-left">
+                        <h1>Welcome Back!</h1>
+                        <p>To continue exploring the world, please log in with your details</p>
+                        <button class="ghost" id="signIn">Login</button>
+                    </div>
+                    <div class="overlay-panel overlay-right" >
+                       <h1>Join Us!</h1>
+                       <p>Sign up to start your adventure with us</p>
+                       <button class="ghost" id="signUp"><a href="registration.html" class="left">Register</button>
+                    </div>
+    
+                </div> 
+            </div>
+        </div>
+    </main>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
