@@ -18,7 +18,7 @@ This project is a login page for a travel agency named "Bluesky". It provides us
 
    ```bash
    git clone https://github.com/yourusername/travel-agency-login-page.git
-Ensure you have the following files in the assets directory:
+- Ensure you have the following files in the assets directory:
 
 css/styles.css
 js/login.js
@@ -26,24 +26,24 @@ images/logo.png
 images/photo.jpg
 Open index.html in your web browser to view the login page.
 
-Usage
-Login Form:
+## Usage
+### Login Form:
 
-Enter your email address and password, then click the "Login" button.
-Use social media icons to log in with Facebook, Google, or LinkedIn.
-Forgot Password:
+- Enter your email address and password, then click the "Login" button.
+- Use social media icons to log in with Facebook, Google, or LinkedIn.
 
-Click the "Forgot your password?" link if you need to reset your password.
-Register:
+  Forgot Password:
+- Click the "Forgot your password?" link if you need to reset your password.
 
-Click the "Register here" link to navigate to the registration page if you don't have an account.
-Registration Form:
+ Register:
+-Click the "Register here" link to navigate to the registration page if you don't have an account.
 
-Fill in your full name, email address, password, confirm your password, and phone number.
-Click the "Register" button to create your account.
-Use social media icons to register with Facebook, Google, or LinkedIn.
+### Registration Form:
+- Fill in your full name, email address, password, confirm your password, and phone number.
+- Click the "Register" button to create your account.
+- Use social media icons to register with Facebook, Google, or LinkedIn.
 
-Contributing
+### Contributing
 If you want to contribute to this project, please fork the repository and submit a pull request with your changes. Make sure to follow the coding style and include tests for any new 
 
 
